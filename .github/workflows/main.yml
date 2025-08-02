@@ -1,7 +1,7 @@
 name: Generate SBOM Report with Syft
 
 on:
-workflow_dispatch: #trigger manually
+  workflow_dispatch: #trigger manually
   push:
     branches:
       - master
